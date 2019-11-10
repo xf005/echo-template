@@ -23,7 +23,7 @@ import (
 	"path/filepath"
 	"strings"
 	"sync"
-	"github.com/labstack/echo"
+	"github.com/labstack/echo/v4"
 )
 
 const templateEngineKey = "echo-template_templateEngine"
